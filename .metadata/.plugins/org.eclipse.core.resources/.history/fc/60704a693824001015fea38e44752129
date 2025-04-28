@@ -1,0 +1,18 @@
+package in.ashokit;
+
+public class Book {
+
+	private Integer bookId;
+	private String bookName;
+	private Double bookPrice;
+	
+	
+	public Book(Integer bookId, String bookName, Double bookPrice) {
+		this.bookId = bookId;
+		this.bookName = bookName;
+		this.bookPrice = bookPrice;
+	}
+	
+	
+	
+}

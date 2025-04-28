@@ -1,0 +1,17 @@
+package in.ashokit.controller;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import in.ashokit.Book;
+
+public class BookRestController {
+
+	public ResponseEntity<Book> getBook()
+	{
+		Book b = new Book(01, "Brahmacharya", 350.50);
+		
+		return new ResponseEntity<>(b, HttpStatus.OK);
+	}
+	
+}

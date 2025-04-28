@@ -1,0 +1,31 @@
+package in.ashokit.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProductRestController {
+
+	
+	@GetMapping("/product")
+	public ResponseEntity<String> getProductInfo(Integer id)
+	{
+		String msg = "";
+		if(id == 101)
+		{
+			msg = "Apple product :: 50,000";
+		}
+		else if(id == 102)
+		{
+			msg = "Samsung product  :: 60,000";
+		}
+		else
+		{
+			msg = "product not found";
+		}
+		
+		return ResponseEntity.ok(msg);
+	}
+	
+}
