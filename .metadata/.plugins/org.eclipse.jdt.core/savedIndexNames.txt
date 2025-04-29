@@ -1,23 +1,4 @@
 INDEX VERSION 1.134+D:\advanced java\Spring Boot REST APIs\.metadata\.plugins\org.eclipse.jdt.core
-1894621040.index
-2056441892.index
-4164801566.index
-3746555604.index
-2077676264.index
-1145303849.index
-3892756691.index
-4154643500.index
-829608835.index
-1325051115.index
-2708891734.index
-1270614236.index
-2131274405.index
-896729072.index
-355514857.index
-3466579582.index
-4021036886.index
-15977604.index
+1442434510.index
 1865797976.index
-444727885.index
-2320178449.index
-1019862184.index
+1853494234.index
